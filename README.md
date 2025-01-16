@@ -10,9 +10,9 @@ The **90-Day Programming Progress Tracker** is a simple tool to help individuals
 
 ## How to Use:
 1. **Clone or Download** this repository.
-2. Open  in any web browser.
-3. **Log Challenges**: Each day, enter the name of the coding challenge you've worked on.
-4. **View Progress**: The system will display your logged challenges and provide motivational feedback based on how much you've completed.
+2. Open [index.html] in any web browser.
+4. **Log Challenges**: Each day, enter the name of the coding challenge you've worked on.
+5. **View Progress**: The system will display your logged challenges and provide motivational feedback based on how much you've completed.
 
 ## Installation:
 1. Clone the repository:
