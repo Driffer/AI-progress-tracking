@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>90-Day Progress Tracker</title>
+    <title>AI Progress Tracker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>90-Day Programming Progress Tracker</h1>
-        
+        <h1>AI-Powered Programming Progress Tracker</h1>
+
+        <h2>Track Your Progress</h2>
         <form id="progressForm">
-            <label for="challengeName">Today's Challenge:</label>
-            <input type="text" id="challengeName" placeholder="e.g., Learn Sorting Algorithms" required>
+            <label for="challengeName">Challenge Name:</label>
+            <input type="text" id="challengeName" placeholder="e.g., Solve Sorting Algorithm" required>
             
-            <button type="submit">Log Challenge</button>
+            <label for="completed">Challenge Completed?</label>
+            <select id="completed" required>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+            
+            <button type="submit">Update Progress</button>
         </form>
 
-        <h3>Your Challenges</h3>
+        <h3>Your Progress</h3>
         <ul id="challengeList"></ul>
 
         <div id="feedback">
-            <h3>Feedback</h3>
+            <h3>Feedback & Review</h3>
             <p id="userFeedback"></p>
         </div>
+
+        <button id="reviewButton">Review Your Progress</button>
     </div>
     
     <script src="app.js"></script>
